@@ -1,0 +1,9 @@
+Model,RMSE,MAE,MAPE
+Linear Regression,0.22 (0.06),0.15,7052081.7
+Random Forest,0.20 (0.06),0.14,2823583.9
+Gradient Boosting,0.19 (0.06),0.13,2111693.1
+ANN (2-layer),0.24 (0.05),0.18,1948909.3
+Quantum Kernel,0.51 (0.14),0.35,99.8
+Amplitude Encoding,0.52 (0.15),0.33,180315.0
+ARIMA,0.51 (0.14),0.35,200533.7
+LSTM,0.56 (0.17),0.39,2506156.5

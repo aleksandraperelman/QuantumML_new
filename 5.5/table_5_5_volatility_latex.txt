@@ -1,0 +1,19 @@
+\begin{table}[h]
+\centering
+\caption{Volatility Prediction Performance (daily frequency) using Parkinson's estimator}
+\label{tab:volatility_prediction}
+\begin{tabular}{lcccc}
+\hline
+Model & QLIKE & MSE & RMSE (\%) & MAE (\%) \\
+\hline
+Linear Regression & 0.3887 & 0.4527 & 0.6728 & 0.4438 \\
+Random Forest & 0.3978 & 0.5972 & 0.7728 & 0.4658 \\
+Gradient Boosting & 0.4462 & 0.6188 & 0.7866 & 0.4688 \\
+ANN (2-layer) & 0.4309 & 0.7297 & 0.8542 & 0.6024 \\
+LSTM & 101089.7600 & 1.0294 & 1.0146 & 0.6947 \\
+GARCH(1,1) & 2638139.7643 & 2.6383 & 1.6243 & 1.3329 \\
+Quantum Kernel & 2642698.9265 & 2.6427 & 1.6256 & 1.3363 \\
+Amplitude Encoding & 9.8645 & 1.0748 & 1.0367 & 0.6911 \\
+\hline
+\end{tabular}
+\end{table}

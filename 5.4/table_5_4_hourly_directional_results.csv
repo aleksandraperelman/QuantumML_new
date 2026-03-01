@@ -1,0 +1,9 @@
+Model,DA (%),Precision (%),Recall (%),F1 Score (%)
+Logistic Regression,46.3,45.4,88.2,59.9
+"ARIMA(1,0,1)",44.9,45.1,97.8,61.8
+Random Forest,53.7,49.3,58.3,53.4
+Gradient Boosting,49.1,46.2,72.8,56.6
+ANN (2-layer),54.5,50.0,25.4,33.7
+LSTM,48.5,45.5,65.8,53.8
+Quantum SVM,47.1,45.0,73.2,55.8
+Amplitude Encoding,45.5,45.5,100.0,62.6

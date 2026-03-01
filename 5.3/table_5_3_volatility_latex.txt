@@ -1,0 +1,19 @@
+\begin{table}[h]
+\centering
+\caption{Volatility Prediction Performance (hourly frequency)}
+\label{tab:volatility_prediction}
+\begin{tabular}{lccc}
+\hline
+Model & QLIKE & MSE$_\sigma$ ($\times 10^3$) & RMSE \\
+\hline
+Linear Regression & 1.3755 & 43.5920 & 0.2088 \\
+Random Forest & 0.4060 & 46.2390 & 0.2150 \\
+Gradient Boosting & 0.4498 & 50.4700 & 0.2247 \\
+ANN (2-layer) & 53.0030 & 55.7100 & 0.2360 \\
+Quantum Kernel & 24112687.1760 & 241.1270 & 0.4910 \\
+Amplitude Encoding & 1.5553 & 68.1772 & 0.2611 \\
+GARCH(1,1) & 24102756.0772 & 241.2713 & 0.4912 \\
+LSTM & 2919972.5631 & 80.1402 & 0.2831 \\
+\hline
+\end{tabular}
+\end{table}

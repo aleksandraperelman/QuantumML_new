@@ -1,0 +1,18 @@
+\begin{table}[h]
+\centering
+\caption{Out-of-sample return prediction performance (hourly frequency) - basis points (x10000)}
+\label{{tab:hourly_return_prediction}}
+\begin{{tabular}}{{lccc}}
+\hline
+Model & RMSE ($\times 10^{{-3}}$) & MAE ($\times 10^{{-3}}$) & MAPE (\%) \\
+\hline
+Linear Regression & 55.29 (16.77) & 38.08 (11.59) & 149519048.8 \\
+ARIMA(1,0,1) & 51.32 (16.45) & 34.85 (10.61) & 14623740.1 \\
+Random Forest & 70.77 (21.08) & 54.16 (15.28) & 725581318.2 \\
+ANN (2-layer) & 53.52 (15.84) & 37.09 (10.14) & 136355768.0 \\
+LSTM (50 units) & 60.65 (22.24) & 39.46 (13.83) & 278244553.2 \\
+Quantum Kernel Ridge & 54.58 (15.57) & 39.14 (9.74) & 566274101.0 \\
+Amplitude Encoding & 53.65 (15.79) & 37.90 (9.88) & 446757634.8 \\
+\hline
+\end{{tabular}}
+\end{{table}}
