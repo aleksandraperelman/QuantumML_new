@@ -1,0 +1,9 @@
+Quantum Model,Classical Model,Δ_RMSE Quantum (bp),Δ_RMSE Classical (bp),Difference (bp),More Robust
+Quantum Kernel,Linear Regression,86.96,95.22,8.27,Quantum
+Quantum Kernel,Random Forest,86.96,90.71,3.75,Quantum
+Quantum Kernel,Gradient Boosting,86.96,94.20,7.24,Quantum
+Quantum Kernel,ANN,86.96,80.87,-6.09,Classical
+Amplitude Encoding,Linear Regression,81.86,95.22,13.36,Quantum
+Amplitude Encoding,Random Forest,81.86,90.71,8.85,Quantum
+Amplitude Encoding,Gradient Boosting,81.86,94.20,12.33,Quantum
+Amplitude Encoding,ANN,81.86,80.87,-0.99,Classical

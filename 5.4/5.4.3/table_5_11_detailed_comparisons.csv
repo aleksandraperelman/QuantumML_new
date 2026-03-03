@@ -1,0 +1,9 @@
+Quantum Model,Classical Model,S^m Quantum,S^m Classical,Difference,More Robust
+Quantum Kernel,Linear Regression,0.0049,0.0171,0.0122,Quantum
+Quantum Kernel,Random Forest,0.0049,0.0224,0.0175,Quantum
+Quantum Kernel,Gradient Boosting,0.0049,0.0614,0.0564,Quantum
+Quantum Kernel,ANN,0.0049,0.0257,0.0208,Quantum
+Amplitude Encoding,Linear Regression,0.0164,0.0171,0.0007,Quantum
+Amplitude Encoding,Random Forest,0.0164,0.0224,0.0060,Quantum
+Amplitude Encoding,Gradient Boosting,0.0164,0.0614,0.0449,Quantum
+Amplitude Encoding,ANN,0.0164,0.0257,0.0093,Quantum

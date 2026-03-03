@@ -1,0 +1,17 @@
+\begin{table}[h]
+\centering
+\caption{RMSE under Feature Noise Injection ($\times 10^{-3}$)}
+\label{tab:noise_injection}
+\begin{tabular}{lccccccc}
+\hline
+Model & $\delta=0.0$ & $\delta=0.2$ & $\delta=0.4$ & $\delta=0.6$ & $\delta=0.8$ & $\delta=1.0$ & Degradation (\%) \\
+\hline
+Linear Regression & 1936.68 & 246190.25 & 523585.74 & 717912.05 & 948722.89 & 1237110.45 & 63777.9 \\
+Random Forest & 1964.66 & 2113.93 & 2291.48 & 2394.78 & 2330.24 & 2723.33 & 38.6 \\
+Gradient Boosting & 2179.72 & 2698.14 & 2858.14 & 3126.83 & 3054.70 & 3241.18 & 48.7 \\
+ANN & 1906.29 & 2819.83 & 4959.42 & 7397.52 & 10036.80 & 12357.89 & 548.3 \\
+Quantum Kernel & 1848.89 & 1846.68 & 1843.31 & 1850.02 & 1841.51 & 1843.98 & -0.3 \\
+Amplitude Encoding & 1935.10 & 1859.70 & 1844.12 & 1878.03 & 1852.77 & 1862.20 & -3.8 \\
+\hline
+\end{tabular}
+\end{table}

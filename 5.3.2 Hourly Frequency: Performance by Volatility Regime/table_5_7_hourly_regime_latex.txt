@@ -1,0 +1,17 @@
+\begin{table}[h]
+\centering
+\caption{Hourly Performance by Volatility Regime}
+\label{tab:hourly_regime_performance}
+\begin{tabular}{lcccccc}
+\hline
+Model & RMSE High (bp) & RMSE Low (bp) & $\Delta$ RMSE (bp) & DA High (\%) & DA Low (\%) & $\Delta$ DA (pp) \\
+\hline
+Linear Regression & 51.12 & 53.36 & 2.24 & 56.8 & 50.4 & 6.4 \\
+Random Forest & 54.71 & 55.19 & 0.48 & 59.2 & 50.8 & 8.4 \\
+Gradient Boosting & 107.19 & 116.61 & 9.42 & 59.2 & 51.2 & 8.0 \\
+ANN (2-layer) & 53.23 & 57.66 & 4.42 & 57.2 & 50.0 & 7.2 \\
+Quantum Kernel & 51.84 & 52.77 & 0.94 & 41.6 & 49.2 & 7.6 \\
+Amplitude Encoding & 50.71 & 53.97 & 3.26 & 56.8 & 52.0 & 4.8 \\
+\hline
+\end{tabular}
+\end{table}

@@ -1,0 +1,7 @@
+Model,RMSE_High (bp),RMSE_Low (bp),Δ_RMSE (bp),DA_High (%),DA_Low (%),Δ_DA (pp)
+Linear Regression,327.25,127.70,199.55,56.9,48.1,8.8
+Random Forest,342.35,122.32,220.03,58.6,47.2,11.5
+Gradient Boosting,332.18,132.11,200.07,62.1,50.9,11.1
+ANN (2-layer),327.61,125.35,202.26,55.2,45.3,9.9
+Quantum Kernel,334.35,126.61,207.73,60.3,48.1,12.2
+Amplitude Encoding,332.77,130.72,202.05,46.6,46.2,0.3

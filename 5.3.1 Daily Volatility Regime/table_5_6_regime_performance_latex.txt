@@ -1,0 +1,18 @@
+\begin{table}[h]
+\centering
+\caption{Performance by Volatility Regime (Daily Frequency)}
+\label{tab:regime_performance}
+\begin{tabular}{lccc}
+\hline
+Model & RMSE High (bp) & RMSE Low (bp) & $\Delta$ RMSE (bp) \\
+\hline
+Linear Regression & 223.95 & nan & nan \\
+Random Forest & 221.10 & nan & nan \\
+Gradient Boosting & 284.61 & nan & nan \\
+ANN (2-layer) & 202.03 & nan & nan \\
+LSTM & 271.24 & nan & nan \\
+Quantum Kernel & 200.58 & nan & nan \\
+Amplitude Encoding & 202.05 & nan & nan \\
+\hline
+\end{tabular}
+\end{table}

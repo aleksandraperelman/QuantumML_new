@@ -1,0 +1,2 @@
+Comparison,Mean Δ Difference (bp),Std Dev (bp),t-statistic,p-value,Significant (α = 0.05)?
+Quantum vs Classical (all models),5.90,4.99,37.340,0.0000,Yes

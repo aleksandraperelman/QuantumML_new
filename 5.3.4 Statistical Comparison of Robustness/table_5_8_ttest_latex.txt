@@ -1,0 +1,12 @@
+\begin{table}[h]
+\centering
+\caption{Paired t-test results for robustness differences (daily frequency)}
+\label{tab:robustness_ttest}
+\begin{tabular}{lccccc}
+\hline
+Comparison & Mean $\Delta$ Difference (bp) & Std Dev (bp) & t-statistic & p-value & Significant? \\
+\hline
+Quantum vs Classical (all models) & 5.90 & 4.99 & 37.340 & 0.0000 & Yes \\
+\hline
+\end{tabular}
+\end{table}

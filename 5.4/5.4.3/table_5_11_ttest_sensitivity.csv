@@ -1,0 +1,2 @@
+Comparison,Mean Δ S^m,Std Dev,t-statistic,p-value,Significant (α = 0.05)?,95% CI Lower,95% CI Upper
+Quantum vs Classical (all models),0.0394,0.0195,63.887,0.0000,Yes,0.0130,0.0856

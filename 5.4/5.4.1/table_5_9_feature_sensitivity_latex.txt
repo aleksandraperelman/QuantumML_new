@@ -1,0 +1,17 @@
+\begin{table}[h]
+\centering
+\caption{Performance across feature subsets and sensitivity metric $S^m$ (daily frequency)}
+\label{tab:feature_sensitivity}
+\begin{tabular}{lcccc}
+\hline
+Model & Full (Baseline) & Technical Only & Price/Volume Only & $S^m$ \\
+\hline
+Gradient Boosting & 2043.43 & 2004.80 & 1997.58 & -2.067 \\
+Amplitude Encoding & 1934.82 & 1890.62 & 1937.14 & -1.082 \\
+Quantum Kernel & 1850.18 & 1846.38 & 1859.58 & 0.152 \\
+Random Forest & 1911.12 & 1912.53 & 1945.30 & 0.931 \\
+Linear Regression & 1866.03 & 1856.40 & 1919.66 & 1.179 \\
+ANN & 1907.25 & 2013.56 & 1901.63 & 2.640 \\
+\hline
+\end{tabular}
+\end{table}
